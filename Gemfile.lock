@@ -44,6 +44,9 @@ GEM
     coffee-script-source (1.6.3)
     daemons (1.1.9)
     descendants_tracker (0.0.3)
+    dotenv (0.10.0)
+    dotenv-rails (0.10.0)
+      dotenv (= 0.10.0)
     equalizer (0.0.8)
     erubis (2.7.0)
     eventmachine (1.0.3)
@@ -149,6 +152,7 @@ PLATFORMS
 DEPENDENCIES
   acts-as-taggable-on
   coffee-rails (~> 3.2.1)
+  dotenv-rails
   figaro
   jquery-rails
   pg
