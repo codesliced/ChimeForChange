@@ -22,4 +22,4 @@ config/twitter.yml
 /source-files
 
 # Ignore secret_token
-/config/initializers/secret_token.rb
+/.env

@@ -8,6 +8,7 @@ gem 'rails', '3.2.13'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 gem 'twitter', '~> 5.0'
 gem 'figaro'
+gem 'dotenv-rails'
 
 group :development, :test do
         gem 'sqlite3'
