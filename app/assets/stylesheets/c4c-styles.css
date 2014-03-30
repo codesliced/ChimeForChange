@@ -1,72 +1,71 @@
 body {
-	font-size: 16px;
-	line-height: 36px;
-	color: #A7ABAC;
-	background-color: #eeeedd;
+  font-size: 16px;
+  line-height: 36px;
+  color: #A7ABAC;
+  background-color: #eeeedd;
 }
-
 
 a:link {color:#648A64;}      /* unvisited link pink*/ 
 a:visited {color:#46685B;}  /* visited link rose*/
 a:hover {color:#A6B985;}  /* mouse over link mustard */
 a:active {color:#A6B985;}  /* selected link */
 
-/* #e4e5e4 super light gray  */  
-
 .logo {
-	margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 ul { margin-top: 2%; margin-left: -30px; }
 
 li { 
-	list-style-type: none; 
-	font-size: 115%;
-	/*background-color: #e4e5e4;*/
-	padding-bottom: 24px;
-	border-bottom: 1px solid #46685B;
+  list-style-type: none; 
+  font-size: 115%;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #46685B;
 
   a {
-  	color: white;
+  color: white;
   }
 }
 
 .call-to-action {
-	text-align: center;
-	width: 90%;
-	margin: 5px auto;
-	color:  #46685B;
+  text-align: center;
+  width: 90%;
+  margin: 5px auto;
+  color:  #46685B;
 }
 
 .bell {
-	max-height: 50px;
-	max-width: 50px;
-	margin-right: 2%;
+  max-height: 50px;
+  max-width: 50px;
+  margin-right: 2%;
 }
 
 .fa-chevron-down {
-	margin-top: 6px;
+  margin-top: 6px;
 }
 
 .message {
-	color: #919596;
-	line-height: 110%;
-	padding-top: 2%;
+  color: #919596;
+  line-height: 110%;
+  padding-top: 2%;
 }
 
 .source {
-	text-transform: uppercase;
-	font-size: 70%;
+  text-transform: uppercase;
+  font-size: 70%;
 }
 
 .css4 {
-	background-color: #E1E3AC;
+  background-color: #E1E3AC;
 
-	a {
-		color: #000;
-	}
+  a {
+    color: #000;
+  }
 }
 
+.logo {
+  img { width: 80%; margin: 4px auto; }
+}
 /*
 Palette
 
