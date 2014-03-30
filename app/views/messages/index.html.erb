@@ -8,11 +8,11 @@
     <%= form_for @message, html: {role: "form"} do |f| %>
     <div class="row">
 	    <span class="col col-sm-6">
-	      <%= f.label "Chime in", class: "sr-only" %>
-        <%= f.text_field :description, :placeholder => "Chime in" %>
+	      <%= f.label "Compose", class: "sr-only" %>
+        <%= f.text_field :description, :placeholder => "Compose message" %>
 	    </span>
       <span class="col col-sm-4">
-	      <%= f.submit "Chime in", class: "btn btn-default" %>
+	      <%= f.submit "Send", class: "btn btn-default" %>
 	    </span> <!-- end row -->
   </div>
     <% end %>
