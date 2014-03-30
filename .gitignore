@@ -20,3 +20,6 @@ config/twitter.yml
 
 # Ignore source files
 /source-files
+
+# Ignore secret_token
+/config/initializers/secret_token.rb
