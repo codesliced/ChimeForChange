@@ -2,13 +2,14 @@ body {
 	font-size: 16px;
 	line-height: 36px;
 	color: #A7ABAC;
+	background-color: #eeeedd;
 }
 
 
-a:link {color:#e94884;}      /* unvisited link pink*/ 
-a:visited {color:#ed687f;}  /* visited link rose*/
-a:hover {color:#f9b44c;}  /* mouse over link mustard */
-a:active {color:#f9b44c;}  /* selected link */
+a:link {color:#648A64;}      /* unvisited link pink*/ 
+a:visited {color:#46685B;}  /* visited link rose*/
+a:hover {color:#A6B985;}  /* mouse over link mustard */
+a:active {color:#A6B985;}  /* selected link */
 
 /* #e4e5e4 super light gray  */  
 
@@ -23,7 +24,7 @@ li {
 	font-size: 115%;
 	/*background-color: #e4e5e4;*/
 	padding-bottom: 10px;
-	border-bottom: 1px solid #ed687f;
+	border-bottom: 1px solid #46685B;
 
   a {
   	color: white;
@@ -34,7 +35,7 @@ li {
 	text-align: center;
 	width: 90%;
 	margin: 5px auto;
-	color:  #ed687f;
+	color:  #46685B;
 }
 
 .bell {
@@ -59,9 +60,33 @@ li {
 }
 
 .css4 {
-	background-color: #f8dcae;
+	background-color: #E1E3AC;
 
 	a {
 		color: #000;
 	}
 }
+
+/*
+Palette
+
+deepest green
+#213435 
+
+dark green
+#46685B
+
+mid green
+#648A64
+
+light green
+#A6B985
+
+yellow-green
+#E1E3AC
+
+cream
+#eeeedd
+
+
+*/

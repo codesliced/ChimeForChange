@@ -17,3 +17,6 @@
 # Ignore application configuration
 /config/application.yml
 config/twitter.yml
+
+# Ignore source files
+/source-files
