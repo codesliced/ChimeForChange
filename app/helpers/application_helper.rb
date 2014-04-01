@@ -12,15 +12,21 @@ module ApplicationHelper
   def fetch_tweets
     tweets = []
     hash_tags_list.each do |hash_tag|
-      client.search(hash_tag).attrs[:statuses].map{ 
+      client.search(hash_tag).attrs[:statuses].map{
         |t| tweets << [t[:text], t[:location]] 
       }
+        # client.search(hash_tag).attrs[:statuses].each do |tweet|
+        #   puts "****"
+        #   puts tweet[:entities][:urls]
+        end
     end
     @tweet_feed = tweets
   end
 
   def create_messages
     fetch_tweets.each do |tweet|
+      # puts '*************'
+      # puts tweet
       next if Message.find_by_description(tweet[0])
       message = Message.new(source: 'twitter',
                             # country: sometime... todo
