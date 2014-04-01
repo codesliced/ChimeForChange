@@ -15,7 +15,7 @@ class SmsController < ApplicationController
       if message.save
         reply_message = txt_response_body("Saved, with tags #{tag_list}!\nReply with SEND and a tag to see 5 new messages.")
       else
-        reply_message = txt_response_body('Please include at least one tag in your message, like #chime4change')
+        reply_message = txt_response_body('Please include at least one tag in your message, like #project50green')
       end
     end
     render xml: reply_message
