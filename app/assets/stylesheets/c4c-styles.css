@@ -31,6 +31,11 @@ li .message-source {
   font-size: 90%;
 }
 
+li .message-single:last-child {
+  border-bottom: none;
+  padding-bottom: 12px;
+}
+
 .call-to-action {
   text-align: center;
   width: 90%;
