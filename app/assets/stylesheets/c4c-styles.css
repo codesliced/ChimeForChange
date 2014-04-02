@@ -41,6 +41,8 @@ li .message-single:last-child {
   width: 90%;
   margin: 5px auto;
   color:  #46685B;
+  font-size: 150%;
+  padding-bottom: 2%;
 }
 
 .bell {
