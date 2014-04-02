@@ -25,13 +25,13 @@ module ApplicationHelper
       message = Message.new(source: 'twitter',
                             # country: sometime... todo
                             description: tweet[0])
-      message.populate_tags #unless message.populate_tags.blank?
-     # message.tag_list = "#project50green"
+      message.populate_tags unless message.populate_tags.blank?
+      message.tag_list = "#project50green"
       message.save
     end
   end
 
   def hash_tags_list
-    ["project50green", "eghsmatters",  "proj50green"]
+    ["project50green", "proj50green", "P50green"]
   end
 end
