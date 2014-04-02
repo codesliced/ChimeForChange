@@ -16,7 +16,7 @@ module ApplicationHelper
         |t| tweets << [t[:text], t[:location]] 
       }
     end
-    @tweet_feed = tweets
+    tweets
   end
 
   def create_messages
