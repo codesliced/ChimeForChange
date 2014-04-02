@@ -2574,7 +2574,7 @@ fieldset[disabled] .navbar-inverse .navbar-form .btn.active {
 }
 .navbar-inverse .navbar-form .input-group.focus .form-control,
 .navbar-inverse .navbar-form .input-group.focus .input-group-btn .btn {
-  border-color: ##46685B;
+  border-color: #46685B;
   color: #46685B;
 }
 @media (max-width: 767px) {
