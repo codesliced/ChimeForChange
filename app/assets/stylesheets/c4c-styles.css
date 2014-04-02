@@ -77,6 +77,11 @@ li .message-single:last-child {
 .logo {
   img { width: 80%; margin: 4px auto; }
 }
+
+footer p {
+  font-size: 80%;
+}
+
 /*
 Palette
 

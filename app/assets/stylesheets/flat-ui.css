@@ -4452,11 +4452,15 @@ body.vjs-full-window {
     background-image: url(../images/login/imac-2x.png);
   }
 }
-footer {
+/*footer {
   background-color: #edeff1;
   color: #bac1c8;
   font-size: 15px;
   padding: 0;
+  position: absolute;
+  bottom: 0;
+  width: 70%;
+  text-align: center;
 }
 footer a {
   color: #9aa4af;
@@ -4466,8 +4470,9 @@ footer p {
   font-size: 15px;
   line-height: 20px;
   margin-bottom: 10px;
-}
-.footer-title {
+  text-align: center;
+}*/
+/*.footer-title {
   margin: 0 0 22px;
   padding-top: 21px;
   font-size: 24px;
@@ -4511,7 +4516,7 @@ footer p {
 .footer-banner ul li:first-child {
   border-top: none;
   padding-top: 1px;
-}
+}*/
 .last-col {
   overflow: hidden;
 }

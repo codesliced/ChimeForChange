@@ -40,11 +40,15 @@ template {
 html {
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
-      -ms-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  position: relative;
+  min-height: 100%;
+
 }
 
 body {
   margin: 0;
+  margin-bottom: 60px;
 }
 
 a {
