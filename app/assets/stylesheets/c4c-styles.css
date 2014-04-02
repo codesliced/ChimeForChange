@@ -14,6 +14,11 @@ a:active {color:#A6B985;}  /* selected link */
   margin-bottom: 10px;
 }
 
+.form-control .message-input {
+  display: inline !important;
+  width: 80%;
+}
+
 ul { margin-top: 2%; margin-left: -30px; }
 
 li { 
@@ -41,7 +46,7 @@ li .message-single:last-child {
   width: 90%;
   margin: 5px auto;
   color:  #46685B;
-  font-size: 150%;
+  font-size: 110%;
   padding-bottom: 2%;
 }
 

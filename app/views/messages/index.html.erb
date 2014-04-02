@@ -6,16 +6,17 @@
 	<div class="call-to-action">SEND SMS to 201-9-PROJ-GR</div>
   </div>
     <%= form_for @message, html: {role: "form"} do |f| %>
-    <div class="row">
-	    <span class="col col-sm-11">
-	      <%= f.label "Compose", class: "sr-only" %>
-        <%= f.text_field :description, :class => "form-control", :placeholder => " Compose message. 140-character limit. Include a #" %>
-	    </span>
-      <span class="col col-sm-1">
-	      <%= f.submit "Submit", class: "btn btn-default" %>
-	    </span> <!-- end row -->
-  </div>
+      <div class="row">
+        <div class="input-group">
+          <%= f.text_field :description, :class => "form-control", :placeholder => " Compose message. 140-character limit. Include a #" %>
+          <span class="input-group-btn">
+          <%= f.submit "Submit", class: "btn btn-default" %>
+        </span>
+        </div>
+      </div>
+    
     <% end %>
 
     <%= render 'hashtag'%>
 </div>
+
